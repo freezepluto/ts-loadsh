@@ -1,6 +1,4 @@
 import { TNoCare } from './share/types';
-import isFunction from './isFunction';
-
 function filter<T>(array: Array<T>, handle: TNoCare) {
     let index = -1;
     let resIndex = 0;
