@@ -1,4 +1,4 @@
-const every = <T>(array: Array<T>, handle) => {
+const every = (array, handle): boolean => {
 	let index = -1;
 	let length = array.length || 0;
 	while (++index < length) {
